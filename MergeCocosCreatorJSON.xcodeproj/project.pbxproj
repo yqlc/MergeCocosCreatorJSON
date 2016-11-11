@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		282EDAC7AA05491701451991 /* Pods_MergeCocosCreatorJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F8A18B390FF280C2A935ACC /* Pods_MergeCocosCreatorJSON.framework */; };
+		8472C44C1DD56E7200267325 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472C44B1DD56E7200267325 /* AppDelegate.swift */; };
+		8472C44E1DD56E7200267325 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472C44D1DD56E7200267325 /* ViewController.swift */; };
+		8472C4501DD56E7200267325 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8472C44F1DD56E7200267325 /* Assets.xcassets */; };
+		8472C4531DD56E7300267325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472C4511DD56E7300267325 /* Main.storyboard */; };
+		8472C45E1DD56E7300267325 /* MergeCocosCreatorJSONTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472C45D1DD56E7300267325 /* MergeCocosCreatorJSONTests.swift */; };
+		8472C4691DD56E7300267325 /* MergeCocosCreatorJSONUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472C4681DD56E7300267325 /* MergeCocosCreatorJSONUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8472C45A1DD56E7300267325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8472C4401DD56E7200267325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472C4471DD56E7200267325;
+			remoteInfo = MergeCocosCreatorJSON;
+		};
+		8472C4651DD56E7300267325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8472C4401DD56E7200267325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8472C4471DD56E7200267325;
+			remoteInfo = MergeCocosCreatorJSON;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		25AB828931A5E851F109DDCC /* Pods-MergeCocosCreatorJSON.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeCocosCreatorJSON.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MergeCocosCreatorJSON/Pods-MergeCocosCreatorJSON.debug.xcconfig"; sourceTree = "<group>"; };
+		50E91C8B0CE050EC888CED5F /* Pods-MergeCocosCreatorJSON.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MergeCocosCreatorJSON.release.xcconfig"; path = "Pods/Target Support Files/Pods-MergeCocosCreatorJSON/Pods-MergeCocosCreatorJSON.release.xcconfig"; sourceTree = "<group>"; };
+		8472C4481DD56E7200267325 /* MergeCocosCreatorJSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MergeCocosCreatorJSON.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472C44B1DD56E7200267325 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8472C44D1DD56E7200267325 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8472C44F1DD56E7200267325 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8472C4521DD56E7300267325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8472C4541DD56E7300267325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8472C4591DD56E7300267325 /* MergeCocosCreatorJSONTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeCocosCreatorJSONTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472C45D1DD56E7300267325 /* MergeCocosCreatorJSONTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeCocosCreatorJSONTests.swift; sourceTree = "<group>"; };
+		8472C45F1DD56E7300267325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8472C4641DD56E7300267325 /* MergeCocosCreatorJSONUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MergeCocosCreatorJSONUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8472C4681DD56E7300267325 /* MergeCocosCreatorJSONUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeCocosCreatorJSONUITests.swift; sourceTree = "<group>"; };
+		8472C46A1DD56E7300267325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F8A18B390FF280C2A935ACC /* Pods_MergeCocosCreatorJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MergeCocosCreatorJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8472C4451DD56E7200267325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				282EDAC7AA05491701451991 /* Pods_MergeCocosCreatorJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472C4561DD56E7300267325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472C4611DD56E7300267325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19ADAB04A9B8D58FED3D7AB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				25AB828931A5E851F109DDCC /* Pods-MergeCocosCreatorJSON.debug.xcconfig */,
+				50E91C8B0CE050EC888CED5F /* Pods-MergeCocosCreatorJSON.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8472C43F1DD56E7200267325 = {
+			isa = PBXGroup;
+			children = (
+				8472C44A1DD56E7200267325 /* MergeCocosCreatorJSON */,
+				8472C45C1DD56E7300267325 /* MergeCocosCreatorJSONTests */,
+				8472C4671DD56E7300267325 /* MergeCocosCreatorJSONUITests */,
+				8472C4491DD56E7200267325 /* Products */,
+				19ADAB04A9B8D58FED3D7AB1 /* Pods */,
+				A5E8FA2DE3F53B14CAC7C097 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8472C4491DD56E7200267325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8472C4481DD56E7200267325 /* MergeCocosCreatorJSON.app */,
+				8472C4591DD56E7300267325 /* MergeCocosCreatorJSONTests.xctest */,
+				8472C4641DD56E7300267325 /* MergeCocosCreatorJSONUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8472C44A1DD56E7200267325 /* MergeCocosCreatorJSON */ = {
+			isa = PBXGroup;
+			children = (
+				8472C44B1DD56E7200267325 /* AppDelegate.swift */,
+				8472C44D1DD56E7200267325 /* ViewController.swift */,
+				8472C44F1DD56E7200267325 /* Assets.xcassets */,
+				8472C4511DD56E7300267325 /* Main.storyboard */,
+				8472C4541DD56E7300267325 /* Info.plist */,
+			);
+			path = MergeCocosCreatorJSON;
+			sourceTree = "<group>";
+		};
+		8472C45C1DD56E7300267325 /* MergeCocosCreatorJSONTests */ = {
+			isa = PBXGroup;
+			children = (
+				8472C45D1DD56E7300267325 /* MergeCocosCreatorJSONTests.swift */,
+				8472C45F1DD56E7300267325 /* Info.plist */,
+			);
+			path = MergeCocosCreatorJSONTests;
+			sourceTree = "<group>";
+		};
+		8472C4671DD56E7300267325 /* MergeCocosCreatorJSONUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8472C4681DD56E7300267325 /* MergeCocosCreatorJSONUITests.swift */,
+				8472C46A1DD56E7300267325 /* Info.plist */,
+			);
+			path = MergeCocosCreatorJSONUITests;
+			sourceTree = "<group>";
+		};
+		A5E8FA2DE3F53B14CAC7C097 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F8A18B390FF280C2A935ACC /* Pods_MergeCocosCreatorJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8472C4471DD56E7200267325 /* MergeCocosCreatorJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472C46D1DD56E7300267325 /* Build configuration list for PBXNativeTarget "MergeCocosCreatorJSON" */;
+			buildPhases = (
+				59117ABB995BF65550C5270B /* [CP] Check Pods Manifest.lock */,
+				8472C4441DD56E7200267325 /* Sources */,
+				8472C4451DD56E7200267325 /* Frameworks */,
+				8472C4461DD56E7200267325 /* Resources */,
+				E0C606FA742BD5D6012454AF /* [CP] Embed Pods Frameworks */,
+				FB581068F03158E68A29E6B6 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MergeCocosCreatorJSON;
+			productName = MergeCocosCreatorJSON;
+			productReference = 8472C4481DD56E7200267325 /* MergeCocosCreatorJSON.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8472C4581DD56E7300267325 /* MergeCocosCreatorJSONTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472C4701DD56E7300267325 /* Build configuration list for PBXNativeTarget "MergeCocosCreatorJSONTests" */;
+			buildPhases = (
+				8472C4551DD56E7300267325 /* Sources */,
+				8472C4561DD56E7300267325 /* Frameworks */,
+				8472C4571DD56E7300267325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8472C45B1DD56E7300267325 /* PBXTargetDependency */,
+			);
+			name = MergeCocosCreatorJSONTests;
+			productName = MergeCocosCreatorJSONTests;
+			productReference = 8472C4591DD56E7300267325 /* MergeCocosCreatorJSONTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8472C4631DD56E7300267325 /* MergeCocosCreatorJSONUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8472C4731DD56E7300267325 /* Build configuration list for PBXNativeTarget "MergeCocosCreatorJSONUITests" */;
+			buildPhases = (
+				8472C4601DD56E7300267325 /* Sources */,
+				8472C4611DD56E7300267325 /* Frameworks */,
+				8472C4621DD56E7300267325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8472C4661DD56E7300267325 /* PBXTargetDependency */,
+			);
+			name = MergeCocosCreatorJSONUITests;
+			productName = MergeCocosCreatorJSONUITests;
+			productReference = 8472C4641DD56E7300267325 /* MergeCocosCreatorJSONUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8472C4401DD56E7200267325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Relax-Happy";
+				TargetAttributes = {
+					8472C4471DD56E7200267325 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+					};
+					8472C4581DD56E7300267325 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8472C4471DD56E7200267325;
+					};
+					8472C4631DD56E7300267325 = {
+						CreatedOnToolsVersion = 8.1;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8472C4471DD56E7200267325;
+					};
+				};
+			};
+			buildConfigurationList = 8472C4431DD56E7200267325 /* Build configuration list for PBXProject "MergeCocosCreatorJSON" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8472C43F1DD56E7200267325;
+			productRefGroup = 8472C4491DD56E7200267325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8472C4471DD56E7200267325 /* MergeCocosCreatorJSON */,
+				8472C4581DD56E7300267325 /* MergeCocosCreatorJSONTests */,
+				8472C4631DD56E7300267325 /* MergeCocosCreatorJSONUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8472C4461DD56E7200267325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472C4501DD56E7200267325 /* Assets.xcassets in Resources */,
+				8472C4531DD56E7300267325 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472C4571DD56E7300267325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472C4621DD56E7300267325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59117ABB995BF65550C5270B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E0C606FA742BD5D6012454AF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeCocosCreatorJSON/Pods-MergeCocosCreatorJSON-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB581068F03158E68A29E6B6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MergeCocosCreatorJSON/Pods-MergeCocosCreatorJSON-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8472C4441DD56E7200267325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472C44E1DD56E7200267325 /* ViewController.swift in Sources */,
+				8472C44C1DD56E7200267325 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472C4551DD56E7300267325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472C45E1DD56E7300267325 /* MergeCocosCreatorJSONTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8472C4601DD56E7300267325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8472C4691DD56E7300267325 /* MergeCocosCreatorJSONUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8472C45B1DD56E7300267325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472C4471DD56E7200267325 /* MergeCocosCreatorJSON */;
+			targetProxy = 8472C45A1DD56E7300267325 /* PBXContainerItemProxy */;
+		};
+		8472C4661DD56E7300267325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8472C4471DD56E7200267325 /* MergeCocosCreatorJSON */;
+			targetProxy = 8472C4651DD56E7300267325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8472C4511DD56E7300267325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8472C4521DD56E7300267325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8472C46B1DD56E7300267325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8472C46C1DD56E7300267325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		8472C46E1DD56E7300267325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25AB828931A5E851F109DDCC /* Pods-MergeCocosCreatorJSON.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeCocosCreatorJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.relax.MergeCocosCreatorJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		8472C46F1DD56E7300267325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50E91C8B0CE050EC888CED5F /* Pods-MergeCocosCreatorJSON.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeCocosCreatorJSON/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.relax.MergeCocosCreatorJSON;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		8472C4711DD56E7300267325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeCocosCreatorJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.relax.MergeCocosCreatorJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeCocosCreatorJSON.app/Contents/MacOS/MergeCocosCreatorJSON";
+			};
+			name = Debug;
+		};
+		8472C4721DD56E7300267325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeCocosCreatorJSONTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.relax.MergeCocosCreatorJSONTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MergeCocosCreatorJSON.app/Contents/MacOS/MergeCocosCreatorJSON";
+			};
+			name = Release;
+		};
+		8472C4741DD56E7300267325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeCocosCreatorJSONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.relax.MergeCocosCreatorJSONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = MergeCocosCreatorJSON;
+			};
+			name = Debug;
+		};
+		8472C4751DD56E7300267325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MergeCocosCreatorJSONUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.relax.MergeCocosCreatorJSONUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 2.3;
+				TEST_TARGET_NAME = MergeCocosCreatorJSON;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8472C4431DD56E7200267325 /* Build configuration list for PBXProject "MergeCocosCreatorJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472C46B1DD56E7300267325 /* Debug */,
+				8472C46C1DD56E7300267325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472C46D1DD56E7300267325 /* Build configuration list for PBXNativeTarget "MergeCocosCreatorJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472C46E1DD56E7300267325 /* Debug */,
+				8472C46F1DD56E7300267325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472C4701DD56E7300267325 /* Build configuration list for PBXNativeTarget "MergeCocosCreatorJSONTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472C4711DD56E7300267325 /* Debug */,
+				8472C4721DD56E7300267325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8472C4731DD56E7300267325 /* Build configuration list for PBXNativeTarget "MergeCocosCreatorJSONUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8472C4741DD56E7300267325 /* Debug */,
+				8472C4751DD56E7300267325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8472C4401DD56E7200267325 /* Project object */;
+}
